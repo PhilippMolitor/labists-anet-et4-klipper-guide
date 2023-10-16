@@ -149,7 +149,7 @@ existing USB-Serial bridge with that.
 9.  Release the reset switch. The ST-LINK utility should now establish a
     connection to the MCU.
 10. Go to Target -> Program.
-11. Select the `klipper-anet.bin` file you copied earlier.
+11. Select the `klipper-et4.bin` file you copied earlier.
 12. Click "Start" to start the flashing process.
 13. After the process has been finished, please fully remove and reattach power
     to the printer. This way the new firmware is correctly booted.
