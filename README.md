@@ -92,6 +92,7 @@ You can also find a guide on how to install MainsailOS at the official
    - Clock reference: **8 MHz crystal**
    - Communication interface: **Serial (on USART1 PA10/PA9)**
    - Baud rate for serial port: **115200**
+
      The baud rate is limited to 115200 instead of Klipper's default of 250000
      because the USB-to-Serial chip on the ET4 mainboard is a CH430**G** that
      cannot exceed the speed of 115200 baud. So far, this has worked fine for me.
