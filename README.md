@@ -91,7 +91,7 @@ You can also find a guide on how to install MainsailOS at the official
    - Bootloader offset: **No bootloader**
    - Clock reference: **8 MHz crystal**
    - Communication interface: **Serial (on USART1 PA10/PA9)**
-   - Baud rate for serial port: **112500**
+   - Baud rate for serial port: **115200**
 5. The menu then should look like this:
    ![](pictures/compile-klipper-menuconfig.png)
    Press <kbd>Q</kbd> to exit, <kbd>Y</kbd> to save.
