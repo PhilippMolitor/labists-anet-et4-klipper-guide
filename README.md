@@ -3,17 +3,11 @@
 # Motivation
 
 The Labists/Anet ET4 is a entry-level low-budget FDM 3D printer.
-Although it is not that popular anymore (or ever was), it can be found for just
-a few bucks on craigslist or similar websites.
+Although it is not that popular anymore (or ever was), it can be found for under 100 bucks on craigslist or similar websites.
 
 You can find some information on the model at their respective shop sites:
 [Anet Shop - Anet ET4](https://shop.anet3d.com/products/official-anet-et4-3d-printer)
 [Labists Shop - Labists ET4](https://labists.com/collections/3d-printing/products/3d-printer-et4-diy-kit)
-
-I found a lot of these printers at a nearby outlet store, which sold these as
-partially defective units which apparently came from Amazon RMAs - at the
-exciting price of only €35.00 per unit - which meant even the stepper motors
-alone should be worth more than the unit price.
 
 In this guide, we will go through the steps to make this printer ready for
 everyday use with the Klipper firmware, as the preinstalled firmware is not even
