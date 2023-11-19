@@ -139,16 +139,19 @@ existing USB-Serial bridge with that.
 4.  Attach the ST-LINK cables to the J2 header. There should be G (ground) and U
     (power) labels. The pin located nearest to the MCU is ground, followed by
     SWCLK and after that SWDIO.
+    ![](pictures/st-link-connection.png)
 5.  Plug the ST-LINK dongle into the USB port of your computer.
 6.  Power the printer up by plugging it into mains voltage.
-7.  Press and hold down the white reset switch.
-8.  Press "Connect" inside the ST-LINK utility.
-9.  Release the reset switch. The ST-LINK utility should now establish a
+7.  Set the programming reset mode to "connect under reset":
+    ![](pictures/st-link-utility-reset-option.png)
+8.  Press and hold down the white reset switch.
+9.  Press "Connect" inside the ST-LINK utility.
+10. Release the reset switch. The ST-LINK utility should now establish a
     connection to the MCU.
-10. Go to Target -> Program.
-11. Select the `klipper-et4.bin` file you copied earlier.
-12. Click "Start" to start the flashing process.
-13. After the process has been finished, please fully remove and reattach power
+11. Go to Target -> Program.
+12. Select the `klipper-et4.bin` file you copied earlier.
+13. Click "Start" to start the flashing process.
+14. After the process has been finished, please fully remove and reattach power
     to the printer. This way the new firmware is correctly booted.
 
 # Step 4: Configuring Klipper
